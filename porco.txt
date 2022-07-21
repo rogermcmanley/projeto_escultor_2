@@ -1,6 +1,6 @@
 dim 50 50 50
 
-  //corpo  
+  //corpo do porco  
   porco.putBox  18  33  5  13  3  13  1  0.7  0.75  1 
   //cabeca 
   porco.putBox  31  39  7  15  4  12  1  0.7  0.75  1
