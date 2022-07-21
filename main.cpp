@@ -22,7 +22,7 @@ int main()
     Interpretador anl;
     vector<FiguraGeometrica*> fig;
 
-    fig = anl.anl("projeto/PORCO.txt"); 
+    fig = anl.anl("projeto/porco.txt"); 
 
     sx = new Sculptor(anl.getdimx(),anl.getdimy(),anl.getdimz());
 
@@ -30,7 +30,7 @@ int main()
         fig[x] -> draw(*sx);
     }
 
-    sx->writeOFF((char*)"PORCO.off"); // cria o arquivo .off
+    sx->writeOFF((char*)"porco.off"); // cria o arquivo .off
 
     for (size_t x=0; x<fig.size(); x++){
         delete fig[x];
